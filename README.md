@@ -1,6 +1,6 @@
 # Project Overview
 
-Adds a plugin to embed an ordered or unordered list to django CMS. Children are automatically wrapped in <li> tags.
+Adds a plugin to embed an ordered or unordered list to django CMS. Children are automatically wrapped in `<li>` tags.
 
 # License
 
