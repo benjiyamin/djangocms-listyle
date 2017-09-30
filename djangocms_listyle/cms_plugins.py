@@ -10,7 +10,7 @@ from . import models
 class ListStylePlugin(StylePlugin):
     model = models.ListStyle
     name = 'List'
-    render_template = 'djangocms_listyle/listyle.html'
+    render_template = 'djangocms_listyle/index.html'
 
     fieldsets = (
         (None, {
@@ -40,7 +40,7 @@ class ListStylePlugin(StylePlugin):
     )
 
     def get_render_template(self, context, instance, placeholder):
-        return 'djangocms_listyle/listyle.html'.format(instance.template)
+        return 'djangocms_listyle/index.html'.format(instance.template)
 
 
 plugin_pool.register_plugin(ListStylePlugin)

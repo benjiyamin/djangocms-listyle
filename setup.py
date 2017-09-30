@@ -27,7 +27,7 @@ CLASSIFIERS = [
 
 
 setup(
-    name='djangocms-listyle,
+    name='djangocms-listyle',
     version='0.1',
     author='Ben Miller',
     author_email='mail@benkmiller.com',
@@ -36,6 +36,6 @@ setup(
     url='https://github.com/djangocms-listyle',
     packages=find_packages(exclude=["tests"]),
     long_description=read('README.md'),
-    install_requires=readlines('requirements.txt'),
+    install_requires=readlines('requirements/production.txt'),
     classifiers=CLASSIFIERS,
 )

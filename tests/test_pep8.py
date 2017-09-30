@@ -11,7 +11,7 @@ class Pep8Test(unittest.TestCase):
         style = pep8.StyleGuide()
         style.options.max_line_length = 100
         filenames = []
-        for root, _, files in os.walk('./pyflo'):
+        for root, _, files in os.walk('./djangocms_listyle'):
             python_files = [f for f in files if f.endswith('.py')]
             for file in python_files:
                 filename = '{0}/{1}'.format(root, file)

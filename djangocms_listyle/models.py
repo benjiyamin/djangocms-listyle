@@ -31,7 +31,7 @@ class ListStyle(Style):
         if self.list_type:
             display.append('<{0}>'.format(self.list_type))
         if self.additional_classes:
-            classes.extend(item.strip() for item in self.additional_classes.split(',') if item.strip())
+            classes.extend(x.strip() for x in self.additional_classes.split(',') if x.strip())
         display.append('.{0}'.format('.'.join(classes)))
         if self.id_name:
             display.append('#{0}'.format(self.id_name))
