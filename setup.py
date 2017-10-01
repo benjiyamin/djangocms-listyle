@@ -28,7 +28,7 @@ CLASSIFIERS = [
 
 setup(
     name='djangocms-listyle',
-    version='0.1',
+    version='0.1.6',
     author='Ben Miller',
     author_email='mail@benkmiller.com',
     description='Adds a plugin to embed an ordered or unordered list to django CMS. Children are automatically wrapped in <li> tags.',
@@ -38,4 +38,5 @@ setup(
     long_description=read('README.md'),
     install_requires=readlines('requirements/production.txt'),
     classifiers=CLASSIFIERS,
+    include_package_data=True,
 )
