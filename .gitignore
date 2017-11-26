@@ -1,20 +1,12 @@
-
-# caching
 __pycache__/
-*.py[cod]
-*$py.class
-
-# distribution
-MANIFEST.in
+*.pyc
+*.egg-info
+.DS_Store
+.idea/
+.eggs/
 dist/
 build/
-*.egg-info/
-
-# virtual env
+archive/
+MANIFEST.in
 venv/
-
-# pycharm config
-.idea
-
-# OS generated
-.DS_Store
+*.sqlite
