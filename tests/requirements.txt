@@ -1,5 +1,5 @@
 dj-database-url==0.4.2
-Django==1.11.7
+Django==1.11.20
 django-classy-tags==0.8.0
 django-cms==3.4.5
 django-formtools==2.1
@@ -11,5 +11,6 @@ djangocms-helper==1.0.0
 djangocms-style==2.0.2
 docopt==0.6.2
 pep8==1.7.1
+pyflakes==2.1.1
 pytz==2017.3
 South==1.0.2

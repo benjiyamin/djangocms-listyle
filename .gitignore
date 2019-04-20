@@ -3,10 +3,12 @@ __pycache__/
 *.egg-info
 .DS_Store
 .idea/
+.vscode/
 .eggs/
 dist/
 build/
 archive/
 MANIFEST.in
 venv/
+env/
 *.sqlite
